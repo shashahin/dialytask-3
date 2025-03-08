@@ -141,3 +141,51 @@
 .main-section-1 {
   text-align: center;
 }
+.count-section {
+  background-color: #1282a6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  padding: 40px;
+}
+.count-section-title {
+  text-align: center;
+}
+.count-section-title h1 {
+  font-size: 48px;
+  line-height: 64px;
+  font-weight: 900;
+  letter-spacing: 0.5%;
+}
+.count-section-title p {
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 400;
+  letter-spacing: 0.5%;
+}
+
+.count {
+  display: flex;
+  gap: 40px;
+  text-align: center;
+
+  margin-top: 40px;
+}
+.count .div2 {
+  border-right: 1px solid white;
+  border-left: 1px solid white;
+  padding: 0 16px;
+}
+.count div h1 {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 64px;
+}
+.count div p {
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 400;
+  letter-spacing: 0.5%;
+}
